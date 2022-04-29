@@ -12,8 +12,8 @@ Diagram what to build
 - [x] tfe: tfe settings
 - [x] tfe: proxy settings
 - [x] tfe: replicated settings
+- [x] tfe: license
+- [x] tfe: install tfe
+- [x] tfe: create user
 
 # to Do  
-- [ ] tfe: license
-- [ ] tfe: install tfe
-- [ ] tfe: create user
