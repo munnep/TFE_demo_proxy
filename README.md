@@ -10,10 +10,10 @@ Diagram what to build
 - [x] proxy: Install mitmproxy
 - [x] proxy: configure mitmproxy
 - [x] tfe: tfe settings
+- [x] tfe: proxy settings
+- [x] tfe: replicated settings
 
 # to Do  
-- [ ] tfe: replicated settings
 - [ ] tfe: license
-- [ ] tfe: proxy settings
 - [ ] tfe: install tfe
 - [ ] tfe: create user
