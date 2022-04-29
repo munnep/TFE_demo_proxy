@@ -8,4 +8,7 @@ update-ca-certificates
 # cp the settingsfile to local system
 cp /vagrant/config/tfe_settings.json /var/tmp/tfe_settings.json
 
+# cert=$(</var/tmp/proxy.pem)
+# sed -i 's/certificate_to_be_replaced/\$cert/' tfe_settings.json
+
 chmod 600 /var/tmp/tfe_settings.json

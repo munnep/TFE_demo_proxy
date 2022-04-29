@@ -128,7 +128,6 @@ To continue the installation, visit the following URL in your browser:
     - Encryption password: ```Password#1```  
     - Installation Type: ```Demo```
     - Mounted Disk Path: ```/mnt/tfe```
-    - SSL/TLS Configuration: ```add the CA bundle of the proxy server```
     - click ```save``` at the bottom of the page 
 - On the dashboard you should see the Terraform is up and running and the link with open . This takes around 5 minutes to finish
  ![](media/20220428145605.png)    
