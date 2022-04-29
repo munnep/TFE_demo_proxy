@@ -1,7 +1,4 @@
 {
-    "ca_certs": {
-        "value": "/var/tmp/proxy.pem"
-    },
     "enc_password": {
         "value": "Password#1"
     },

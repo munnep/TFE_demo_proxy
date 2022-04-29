@@ -21,6 +21,7 @@ Vagrant.configure("2") do |config|
       tfe.vm.provision "shell", path: "vagrant_scripts/configure_tfe_settings.sh"
       tfe.vm.provision "shell", path: "vagrant_scripts/configure_replicated.sh"
       tfe.vm.provision "shell", path: "vagrant_scripts/configure_apt.sh"
+      tfe.vm.provision "shell", path: "vagrant_scripts/install_tfe.sh"
   end    
 
 end
