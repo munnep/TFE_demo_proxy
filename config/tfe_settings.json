@@ -11,9 +11,6 @@
     "installation_type": {
         "value": "poc"
     },
-    "production_type": {
-        "value": "disk"
-    },
     "disk_path": {
         "value": "/mnt/tfe"
     }
