@@ -1,0 +1,20 @@
+{
+    "ca_certs": {
+        "value": "/var/tmp/proxy.pem"
+    },
+    "enc_password": {
+        "value": "Password#1"
+    },
+    "hostname": {
+        "value": "192.168.56.33.nip.io"
+    },
+    "installation_type": {
+        "value": "poc"
+    },
+    "production_type": {
+        "value": "disk"
+    },
+    "disk_path": {
+        "value": "/mnt/tfe"
+    }
+}

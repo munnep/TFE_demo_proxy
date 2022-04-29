@@ -17,6 +17,8 @@ Vagrant.configure("2") do |config|
         v.memory = 4096
         v.cpus = 2
       end
+
+      tfe.vm.provision "shell", path: "vagrant_scripts/configure_tfe_settings.sh"
   end    
 
 end
