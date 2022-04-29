@@ -4,6 +4,9 @@ Vagrant.configure("2") do |config|
       proxy.vm.box = "bento/ubuntu-20.04"
       proxy.vm.hostname = "proxy"
       proxy.vm.network "private_network", ip: "192.168.56.34"
+
+      proxy.vm.provision "shell", path: "vagrant_scripts/install_mitmproxy.sh"
+      proxy.vm.provision "shell", path: "vagrant_scripts/configure_mitmproxy.sh"
   end
 
   config.vm.define "tfe" do |tfe|
