@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "# Removing default GW"
+ip route delete default
 
 # TFE installation directory
 mkdir /mnt/tfe 
