@@ -14,8 +14,8 @@ while true; do
         sleep 60
         break
     else
-        echo "TFE is not available yet. Please wait..."
-        sleep 60
+        echo "TFE is not available yet. Please wait...for another 2 minutes"
+        sleep 120
     fi
 done
 
